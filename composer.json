@@ -1,0 +1,8 @@
+{
+    "name": "anonimo1998/api_rest_php",
+    "description": "Base para el desarrollo de una api con php y jwt",
+    "require": {
+        "aura/sql": "^4.0",
+        "firebase/php-jwt": "^6.0"
+    }
+}
