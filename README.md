@@ -10,7 +10,7 @@
 
 ## PASO 02
 
-**Ejecutar el compando *composer install* dentro del proyecto.**
+**Ejecutar el comando *composer install* dentro del proyecto.**
 
 
 ## PASO 03
