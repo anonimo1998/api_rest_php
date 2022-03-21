@@ -65,14 +65,14 @@ switch ($request) {
                     );
                 } else {
                     // --
-                    $response = array('status' => 'ERROR', 'data' => array(), 'msg' => 'Verificar credenciales.');
+                    $response = array('status' => 'ERROR', 'msg' => 'Verificar credenciales.');
                 }
             } catch (PDOException $e) {
                 // --
-                $response = array('status' => 'ERROR', 'data' => array(), 'msg' => $e->getMessage());
+                $response = array('status' => 'ERROR', 'msg' => $e->getMessage());
             }
         } else {
-            $response = array('status' => 'ERROR', 'data' => array(), 'msg' => 'No se enviaron los párametros necesarios, verificar.');
+            $response = array('status' => 'ERROR', 'msg' => 'No se enviaron los párametros necesarios, verificar.');
         }
         // --
         break;
